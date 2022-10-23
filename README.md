@@ -1,23 +1,25 @@
 ``` html
 <!DOCTYPE html>
-<html>
+<html style="width: 100%; height: 100%;">
 <head>
 	<meta charset="UTF8">
 	<!--如果要修改刷新时间，修改下一行的content（秒数）-->
 	<meta http-equiv="refresh" content="5">
 </head>
-<body>
+<body style="width: 100%; height: 100%;">
 	<!--
 		如果要修改一个页面内出现的图片个数，将以下
 		从<iframe>到</iframe>代码的重复次数改一下（默认1次）
 	-->
-	<div>
+	<div style="width: 100%; height: 100%;">
 
-	<iframe    src = "https://www.acy.moe/api/r18"
-		height= 900
-		width= 1600
-		frameborder= 0
-		scrolling= 0
+	<iframe	src			= "https://api.yimian.xyz/img?type=wallpaper"
+		name			= 图片
+		width			= 100%
+		height			= 100%
+		frameborder		= 0
+		scrolling		= no
+		allowtransparency	= true
 	>
 	</iframe>
 	
